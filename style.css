@@ -1,0 +1,60 @@
+*{ /*Para toda la página*/
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+} /*Se ajusta automaticamente al tamaño de la pagina*/
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+     .menu{
+        background-color: aqua;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        align-items: center;
+     }
+       .logo{
+        background-color: aliceblue;
+        flex: 1 1 auto;
+        height: 30px;
+       }
+         .nav{
+         background-color: blueviolet;
+         flex: 5 1 auto;/*5 a 1 veces mas grande que los otros del menu */
+         height: 30px;
+         }
+           .social{
+            background-color: red;
+            flex: 1 1 auto;
+            height: 30px;
+           }
+    .texto-principal{
+    background-color: violet;
+    } 
+       h1{
+        background-color: green;
+       }
+
+.section{
+ background-color: black;
+}
+   .articulos{
+    background-color: goldenrod;
+   }
+   .navegacion{
+    background-color: peru;
+   }
+   .aside{
+    background-color: teal;
+   }
+      .publicidad{
+         background-color: yellow;
+      }
